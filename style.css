@@ -10,14 +10,26 @@ body {
   background-color:hsl(30, 38%, 92%);
   }
 
-.card__perfum, .card__description, .prices__old {
+.card {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+  }
+
+.card__img {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+
+.card__perfum, .card__description, .prices__old, .card__buttom {
   color:hsl(228, 12%, 48%);
   font-family: 'Montserrat', sans-serif;
+  width: 700;
 }
 
 .card__title {
   color:hsl(212, 21%, 14%);
   font-family: 'Fraunces', serif;
+  width: 700;
 }
 
 .card__perfum {
@@ -28,11 +40,22 @@ body {
   font-size: 14px;
 }
 
+.card__prices {
+  display: flex;
+}
+
 .prices__new {
   color: hsl(158, 36%, 37%);
+  font-family: 'Fraunces', serif;
+  width: 700;
+}
+
+.prices__old {
+  text-decoration: line-through;
 }
 
 .card__buttom {
   background-color: hsl(158, 36%, 37%);
   color:white;
+  border-radius: 15px;
 }
