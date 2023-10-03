@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+  }
+  
+html {
+  width: 375px;
+  }
+
+body {
+  background-color:hsl(30, 38%, 92%);
+  }
+
+.card__perfum, .card__description, .prices__old {
+  color:hsl(228, 12%, 48%);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card__title {
+  color:hsl(212, 21%, 14%);
+  font-family: 'Fraunces', serif;
+}
+
+.card__perfum {
+    text-transform: uppercase;
+}
+
+.card__description {
+  font-size: 14px;
+}
+
+.prices__new {
+  color: hsl(158, 36%, 37%);
+}
+
+.card__buttom {
+  background-color: hsl(158, 36%, 37%);
+  color:white;
+}
